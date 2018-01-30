@@ -16,6 +16,8 @@ WIN_COMBINATIONS = [
 ]
 
 
+
+def won?(board)
   # if board.none? {|i| i == "X" || i == "O"}
   #   false
   # else
@@ -26,6 +28,8 @@ WIN_COMBINATIONS = [
       if board[position_1] == "X" && board[position_2] == "X" && board[position_3] == "X" || board[position_1] == "O" && board[position_2] == "O" && board[position_3] == "O"
         return win_combination
       end
+    end
+  end
   false
 end
 #
