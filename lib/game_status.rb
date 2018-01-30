@@ -15,14 +15,7 @@ WIN_COMBINATIONS = [
   [0,4,8]
 ]
 
-def won?(board)
-  WIN_COMBINATIONS.detect do |combo|
-    board[combo[0]] == board[combo[1]] &&
-    board[combo[1]] == board[combo[2]]
-  end
-end
 
-def won?(board)
   # if board.none? {|i| i == "X" || i == "O"}
   #   false
   # else
