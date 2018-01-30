@@ -38,11 +38,11 @@ end
 #   end
 #   false
 # end
-# 
+#
 # def full?(board)
 #   board.none? {|i| i == " "}
 # end
-# 
+#
 # def draw?(board)
 #   if won?(board) != false
 #     false
@@ -50,7 +50,7 @@ end
 #     full?(board)
 #   end
 # end
-# 
+#
 # def over?(board)
 #   if full?(board) || won?(board)
 #     true
@@ -58,8 +58,8 @@ end
 #     draw?(board)
 #   end
 # end
-# 
-# 
+#
+#
 # def winner(board)
 #   combo = won?(board)
 #   if combo == false
